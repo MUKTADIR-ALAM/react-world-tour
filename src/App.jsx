@@ -1,12 +1,12 @@
 import './App.css'
-import Countires from './components/countries/Countires'
+import Countries from './components/Countries/Countries'
 
 function App() {
 
   return (
     <>
     <h1>React World Tour</h1>
-    <Countires></Countires>
+    <Countries></Countries>
     </>
   )
 }
