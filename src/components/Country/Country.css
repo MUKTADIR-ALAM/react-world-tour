@@ -6,10 +6,14 @@
 }
 .country > img{
     height: 215px;
-    width: 320px;
+    width: 330px;
 }
 
 .visited-country{
     background: bisque;
     color: black;
+}
+
+button{
+    margin-bottom: 5px;
 }
