@@ -9,8 +9,8 @@ export default function Country({country}) {
         setVisited(!visited);
     }
     return (
-    <div className="country">
-        <h4>Name: {name?.common}</h4>
+    <div className={`country ${visited&&'visited-country'}`}>
+        <h4 style={{color: visited&&'purple'}}>Name: {name?.common}</h4>
         <img src={flags.png} alt="" />
         <p>Area: {area} km²</p>
         <p>Population: {population}</p>

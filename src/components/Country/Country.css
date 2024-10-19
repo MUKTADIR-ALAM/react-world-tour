@@ -4,3 +4,12 @@
     padding: 15px;
     border-radius: 15px;
 }
+.country > img{
+    height: 215px;
+    width: 320px;
+}
+
+.visited-country{
+    background: bisque;
+    color: black;
+}
